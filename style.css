@@ -28,13 +28,20 @@ body {
 
 .section {
     background-color: #272a2f;
-    padding: 10px 15px;
+    padding: 10px 5px;
     border-radius: 5px;
 }
 
 .section__title {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
+}
+
+@media (max-width: 410px) {
+    .section__title {
+        font-size: 13px;
+        padding: 10px 3px;
+    }
 }
 
 .section__info {
